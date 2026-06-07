@@ -1,3 +1,11 @@
+/**
+ * Styles for local_newsticker.
+ *
+ * @package    local_newsticker
+ * @copyright  2026 Andrei Toma
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 .local-newsticker-wrapper {
     display: none;
     width: 100%;

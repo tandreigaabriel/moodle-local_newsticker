@@ -15,19 +15,26 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Hook callback definitions for local_newsticker.
+ * Privacy API provider for local_newsticker.
  *
  * @package    local_newsticker
  * @copyright  2026 Andrei Toma
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
+namespace local_newsticker\privacy;
 
-$callbacks = [
-    [
-        'hook' => \core\hook\output\before_standard_top_of_body_html_generation::class,
-        'callback' => [\local_newsticker\local\hook_callbacks::class, 'before_standard_top_of_body_html_generation'],
-        'priority' => 500,
-    ],
-];
+/**
+ * Null privacy provider — this plugin stores no personal data.
+ */
+class provider implements \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Returns the reason this plugin stores no personal data.
+     *
+     * @return string
+     */
+    public static function get_reason(): string {
+        return get_string('privacy:metadata', 'local_newsticker');
+    }
+}

@@ -35,3 +35,4 @@ $string['speed'] = 'Scroll speed';
 $string['speed_desc'] = 'Animation duration in seconds. Lower number = faster scrolling.';
 $string['textcolour'] = 'Text colour';
 $string['textcolour_desc'] = 'Example: #ffffff';
+$string['privacy:metadata'] = 'The News Ticker plugin does not store any personal data.';
