@@ -43,7 +43,7 @@ if ($hassiteconfig) {
         'local_newsticker/message',
         get_string('message', 'local_newsticker'),
         get_string('message_desc', 'local_newsticker'),
-        'Important announcement: Please check the latest updates.',
+        get_string('message_default', 'local_newsticker'),
         PARAM_TEXT
     ));
 

@@ -27,6 +27,7 @@ $string['backgroundcolour_desc'] = 'Example: #0f172a';
 $string['enabled'] = 'Enable news ticker';
 $string['enabled_desc'] = 'Show the scrolling announcement ticker across the site.';
 $string['message'] = 'Ticker message';
+$string['message_default'] = 'Important announcement: Please check the latest updates.';
 $string['message_desc'] = 'The announcement text shown inside the scrolling ticker.';
 $string['pluginname'] = 'News Ticker';
 $string['showclose'] = 'Show close button';
