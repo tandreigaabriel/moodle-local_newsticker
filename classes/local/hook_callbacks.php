@@ -32,7 +32,6 @@ namespace local_newsticker\local;
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class hook_callbacks {
-
     /**
      * Inject ticker HTML near the top of the body.
      *
@@ -113,7 +112,7 @@ class hook_callbacks {
         // visual chrome. We need to move the ticker into the correct visual position per theme.
         // - Boost: move into #topofscroll just before #page-header (below the fixed navbar).
         // - All other themes (Adaptable, etc.): move after nav.navbar so it sits between the
-        //   site navigation bar and the page content.
+        // site navigation bar and the page content.
         return '
             <script>
                 document.addEventListener("DOMContentLoaded", function () {

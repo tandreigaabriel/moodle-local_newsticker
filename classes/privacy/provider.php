@@ -28,7 +28,6 @@ namespace local_newsticker\privacy;
  * Null privacy provider — this plugin stores no personal data.
  */
 class provider implements \core_privacy\local\metadata\null_provider {
-
     /**
      * Returns the reason this plugin stores no personal data.
      *
