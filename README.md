@@ -107,7 +107,7 @@ Close button does not stay dismissed between visits
 
     This is by design — the dismissed state is stored in sessionStorage, which clears when the browser tab or window is closed. The ticker reappears on the user's next session.
 
-Support & Donations
+Support
 
 Developed and maintained by Andrei Toma.
 
@@ -117,9 +117,7 @@ Developed and maintained by Andrei Toma.
 
     Moodle plugins directory: moodle.org/plugins/local_newsticker
 
-If this plugin saves you time or helps your organisation, please consider supporting its ongoing development through a donation:
-
-https://www.tandreig.com/plugins
+    Website: tandreig.com/plugins
 License
 
 This plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
