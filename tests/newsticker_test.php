@@ -29,6 +29,8 @@ use local_newsticker\local\hook_callbacks;
 
 /**
  * Tests for settings, output and privacy.
+ *
+ * @covers \local_newsticker\local\hook_callbacks
  */
 final class newsticker_test extends \advanced_testcase {
     /**
@@ -92,7 +94,9 @@ final class newsticker_test extends \advanced_testcase {
     }
 
     /**
-     * The privacy API expects a language string identifier.
+     * The privacy provider declares no personal data and returns the string identifier.
+     *
+     * @covers \local_newsticker\privacy\provider
      */
     public function test_privacy_provider(): void {
         $this->assertInstanceOf(\core_privacy\local\metadata\null_provider::class, new privacy\provider());
