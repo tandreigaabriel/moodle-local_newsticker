@@ -18,14 +18,15 @@
  * Plugin version information.
  *
  * @package    local_newsticker
- * @copyright  2026 Andrei Toma
+ * @copyright  2026 TAG Digital Solutions Ltd <https://tandreig.com>
+ * @author     Andrei Toma
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_newsticker';
-$plugin->version = 2026062001;
+$plugin->version = 2026112500;
 $plugin->requires = 2024100701; // Moodle 4.5.
 $plugin->maturity = MATURITY_ALPHA;
-$plugin->release = 'v1.0.4';
+$plugin->release = 'v1.0.5';

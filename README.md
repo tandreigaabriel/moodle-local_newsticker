@@ -1,6 +1,6 @@
 News Ticker for Moodle
 local_newsticker
-Maintained by Andrei Toma
+Developed and maintained by Andrei Toma — TAG Digital Solutions Ltd (trading as TAG Web Design & Development), https://tandreig.com. © 2026 TAG Digital Solutions Ltd.
 
 A Moodle local plugin that displays a site-wide scrolling announcement ticker below the main navigation, above the page content. Ideal for broadcasting important notices, maintenance windows, or any time-sensitive message to all users across the site.
 Features
@@ -109,8 +109,6 @@ Close button does not stay dismissed between visits
 
 Support
 
-Developed and maintained by Andrei Toma.
-
     GitHub repository: tandreigaabriel/moodle-local_newsticker
 
     Bug reports and feature requests: open an issue on GitHub
@@ -122,7 +120,7 @@ License
 
 This plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
-Copyright © 2026 Andrei Toma
+© 2026 TAG Digital Solutions Ltd.
 Changelog
 1.0.0
 

@@ -18,7 +18,8 @@
  * Hook callback handlers for local_newsticker.
  *
  * @package    local_newsticker
- * @copyright  2026 Andrei Toma
+ * @copyright  2026 TAG Digital Solutions Ltd <https://tandreig.com>
+ * @author     Andrei Toma
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -28,7 +29,8 @@ namespace local_newsticker\local;
  * Callbacks for Moodle output hooks.
  *
  * @package    local_newsticker
- * @copyright  2026 Andrei Toma
+ * @copyright  2026 TAG Digital Solutions Ltd <https://tandreig.com>
+ * @author     Andrei Toma
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class hook_callbacks {
